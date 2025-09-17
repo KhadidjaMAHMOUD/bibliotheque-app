@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/bibliotheque-app.git'
+                    url: 'https://github.com/KhadidjaMahmoud/bibliotheque-app.git'
             }
         }
         stage('Build') {
